@@ -1,0 +1,34 @@
+{
+    "version": "0.4.8",
+    "description": "Markdown viewer with folder workspaces",
+    "homepage": "https://github.com/superbiche/marque",
+    "license": "Apache-2.0",
+    "notes": "Marque needs the Microsoft Edge WebView2 runtime, included in current Windows 10 and 11.",
+    "suggest": {
+        "Microsoft Edge WebView2": "extras/webview2"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/superbiche/marque/releases/download/v0.4.8/Marque_0.4.8_x64_en-US.msi",
+            "hash": "839ac9025ac5f18815cbd220beb22f3a6e37b19a0ea5c6e14cf0564589d15325"
+        }
+    },
+    "extract_dir": "PFiles\\Marque",
+    "bin": "marque.exe",
+    "shortcuts": [
+        [
+            "marque.exe",
+            "Marque"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/superbiche/marque"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/superbiche/marque/releases/download/v$version/Marque_$version_x64_en-US.msi"
+            }
+        }
+    }
+}
