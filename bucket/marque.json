@@ -1,5 +1,5 @@
 {
-    "version": "0.4.11",
+    "version": "0.4.12",
     "description": "Markdown viewer with folder workspaces",
     "homepage": "https://github.com/superbiche/marque",
     "license": "Apache-2.0",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/superbiche/marque/releases/download/v0.4.11/Marque_0.4.11_x64_en-US.msi",
-            "hash": "3f9aa1cec2f26028f8939e44a4da51bcc293166cb583bf1f685e3a66bc515d6d"
+            "url": "https://github.com/superbiche/marque/releases/download/v0.4.12/Marque_0.4.12_x64_en-US.msi",
+            "hash": "2bc41f0986063ef89dfa482e469a5202b88ba39b372036800aae0e89292bf7f9"
         }
     },
     "extract_dir": "PFiles\\Marque",
